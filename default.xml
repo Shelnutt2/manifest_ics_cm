@@ -249,7 +249,7 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPmanager" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
@@ -330,15 +330,13 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
-  <project path="system/su" name="CyanogenMod/android_system_su" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
-  <project path="vendor/htc/desirec" name="vendor_htc_desirec" remote="TeamICS" revision="ics"/>
-  <project path="vendor/htc/hero" name="vendor_htc_hero" remote="TeamICS" revision="ics"/>
-  <project name="TeamICS/vendor_htc_heroc" path="vendor/htc/heroc" remote="gh_local" revision="ics" />
+  <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" revision="ics"/>
   <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" revision="cm9-fixes" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
   <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" revision="ics"/>
-  <project path="vendor/ev" name="android_vendor_ev" remote="ev-github" revision="ics"/>
+  <project path="vendor/ev" name="android_vendor_ev" remote="ev-github" revision="jellybean"/>
 
 </manifest>
