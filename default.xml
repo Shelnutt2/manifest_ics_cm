@@ -138,6 +138,7 @@
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" />
   <project path="external/lohit-fonts" name="CyanogenMod/android_external_lohit-fonts" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" revision="ics" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" />
   <project path="external/mesa3d" name="CyanogenMod/android_external_mesa3d" />
@@ -337,6 +338,5 @@
   <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" revision="cm9-fixes" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
   <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" revision="ics"/>
-  <project path="vendor/ev" name="android_vendor_ev" remote="ev-github" revision="jellybean"/>
 
 </manifest>
