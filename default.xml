@@ -333,7 +333,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" revision="gingerbread" />
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="TeamICS" />
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" revision="ics"/>
   <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" />
   <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
