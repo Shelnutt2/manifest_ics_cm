@@ -35,15 +35,8 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish"/>
-  <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" />
-  <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" />
   <project path="device/htc/common" name="android_device_htc_common" remote="TeamICS" revision="ics" />
   <project path="device/htc/heroc"  name="android_device_htc_heroc" remote="TeamICS" revision="jellybean" />
-  <project path="device/sample" name="CyanogenMod/android_device_sample" />
-  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -67,8 +60,7 @@
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" />
   <project path="external/cibu-fonts" name="CyanogenMod/android_external_cibu-fonts" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" />
-  <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" />
+    <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
@@ -158,8 +150,7 @@
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
-  <project path="external/pcre" name="platform/external/pcre" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="external/ping" name="CyanogenMod/android_external_ping" />
+    <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" />
@@ -229,7 +220,7 @@
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" revision="ics" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
@@ -332,6 +323,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="TeamICS" />
   <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" revision="ics"/>
