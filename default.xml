@@ -36,7 +36,7 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/htc/common" name="android_device_htc_common" remote="TeamICS" revision="ics" />
-  <project path="device/htc/heroc"  name="android_device_htc_heroc" remote="TeamICS" revision="jellybean" />
+  <project path="device/htc/speedy"  name="Evervolv/android_device_htc_speedy" />
   <project path="docs/source.android.com" name="CyanogenMod/android_docs_source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -150,7 +150,7 @@
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" />
-    <project path="external/ping" name="CyanogenMod/android_external_ping" />
+  <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" />
@@ -326,9 +326,8 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="TeamICS" />
-  <project path="vendor/htc/heroc" name="vendor_htc_heroc" remote="TeamICS" revision="ics"/>
-  <project path="vendor/TeamICS" name="vendor_TeamICS" remote="TeamICS" />
-  <project path="manifest" name="manifest_ics_cm" remote="TeamICS" />
-  <project path="ICS_Fixes" name="ICS_Fixes" remote="TeamICS" revision="ics"/>
+  <project path="vendor/htc" name="Evervolv/android_vendor_htc" />
+  <project path="vendor/ev" name="Evervolv/android_vendor_ev" />
+  <project path="manifest" name="Megaghostgamer/manifest_ics_cm" />
 
 </manifest>
